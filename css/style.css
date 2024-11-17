@@ -24,24 +24,32 @@ html {
 	margin-right: auto;
 }
 
-.vrEscapeRoom th, .vrEscapeRoom td, .nameCard th {
+.vrEscapeRoom th, .vrEscapeRoom td, .nameCard th, .arNamecard th {
 	/* border: 2px solid black; */
 	text-align: center;
 	font-size: larger;
 	padding: 0 15px 0 15px;
 }
 
-iframe {
+.vrEscapeRoom iframe {
 	border-radius: 20px;
 	width: 350px;
 	height: 200px;
 }
 
-.flutter img, .nameCard img {
+video {
+	border-radius: 20px;
+	width: 260px;
+	height: 560px;
+	float: left;
+	margin-right: 50px;
+}
+
+.flutter img, .nameCard img, .arNamecard img{
 	width: 100%;
 }
 
-.flutter, .nameCard {
+.flutter, .nameCard, .arNamecard {
 	width: 55%;
 	margin-left: auto;
 	margin-right: auto;
