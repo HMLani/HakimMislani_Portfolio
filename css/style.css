@@ -57,13 +57,16 @@ video {
 	margin-right: auto;
 }
 
-
 hr{
 	height: 3px;
 	background-color: black;
 	border-width: 0;
 }
 
+.bi-whatsapp, .bi-telegram{
+	/* vertical-align: 0.125; */
+	font-size: 70%;
+}
 *,
 *:after,
 *:before {
@@ -92,6 +95,7 @@ a {
 
 a:hover {
 	color: #fff;
+	text-decoration: underline;
 }
 
 .bl-main {
@@ -187,6 +191,7 @@ a:hover {
 	display: block;
 	font-size: 2em;
 	margin-bottom: 10px;
+	/* float: left; */
 }
 
 .bl-main > section .bi-x-circle-fill {
