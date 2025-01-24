@@ -48,12 +48,16 @@ video {
 	margin-right: 50px;
 }
 
-.flutter img, .nameCard img, .arNamecard img{
+.flutter img, .nameCard img, .arNamecard img {
 	width: 100%;
 	border-radius: 10px;
 }
 
-.flutter, .nameCard, .arNamecard {
+.reactApp img{
+	border-radius: 10px;
+}
+
+.flutter, .nameCard, .arNamecard, .reactApp {
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;

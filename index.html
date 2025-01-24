@@ -27,7 +27,16 @@
                 </div>
     
                 <div class='bl-content'>
-                    <p><strong>(Work in progress)</strong> Here will be the credits</p>
+                    <h3>Credits</h3><br><br>
+                    
+                    <h4>Web page layout idea:</h4>
+                    <p><a href='https://tympanus.net/codrops/2013/04/23/fullscreen-layout-with-page-transitions/'><strong>Fullscreen Layout with Page Transitions</strong></a> by Menoela Llic</p><br><br>
+
+                    <h4>Code implemention:</h4>
+                    <p><a href='https://codepen.io/karolpodlesny/pen/kdJrVE'><strong>Fullscreen layout with columns</strong></a> by Karol Podlesny</p><br><br>
+
+                    <h4>Images:</h4>
+                    <p>Hakim Mislani</p>
                 </div><span class='bi bi-x-circle-fill'></span>
             </section>
 
@@ -57,6 +66,10 @@
                         <li data-panel='panel-4'>
                             <a href='#'><img src='./imgs/NameCard Back (JPG, Design 1).jpg'></a>
                         </li>
+
+                        <li data-panel='panel-5'>
+                            <a href='#'><img src='./imgs/Homepage.gif'></a>
+                        </li>
                     </ul>
                 </div><span class='bi bi-x-circle-fill'></span>
             </section>
@@ -74,9 +87,10 @@
                     <p>Hello! My name's Muhammad Hakim Bin Mislani. I'm currently a year 2 student soon to be year 3 studying in Diploma in Information Technology which 
                         was formally known as Digital Design and Development at Republic Polytechnic. I have lots of creative ideas that want to bring to life whenever it
                         comes to designing. My passion is to become a UI/UX designer to create interfaces that's visually appealing, user-friendly and accessible for all users 
-                        to use. My programming skills are only decent when it comes to make a web or mobile application look appealing as I have most of my ideas on developing 
-                        applications looks visually appealing and user-friendly. The tools I've used to create my projects are Adobe Illustrator and Photoshop, Figma, Unity, 
-                        React and React Native, and Flutter. My hobbies are playing computer games whenever I have free time  to clear my mind off from stress and relax my mind. 
+                        to use. My programming skills are only decent when it comes to make a web or mobile application to make it look appealing as I have most of my ideas on 
+                        developing applications looks visually appealing and user-friendly. The tools I've used to create my projects are Adobe Illustrator and Photoshop, 
+                        Figma, Unity, React and React Native, and Flutter. My hobbies are playing computer games whenever I have free time  to clear my mind off from stress 
+                        and relax my mind. 
                     </p>
 
                     <hr>
@@ -86,7 +100,8 @@
                     <p>
                         <strong>WhatsApp / Telegram</strong>: +6590704633 (preferred message than a call)<br>
                         <strong>LinkedIn</strong>: <a href='https://www.linkedin.com/in/hakim-mislani/'>Hakim Mislani</a><br>
-                        <strong>Email</strong>: mhkim.lani@gmail.com
+                        <strong>Email</strong>: mhkim.lani@gmail.com<br>
+                        <strong>Github</strong>: <a href='https://github.com/HMLani'>HMLani</a>
                     </p>
                 </div><span class='bi bi-x-circle-fill'></span>
             </section>
@@ -263,9 +278,55 @@
 
                         <p>
                             This name card was created usin Adobe Illustrator, Unity and Vuforia to make the card come to life using Augmented Reality (AR) when scanning 
-                            the placeholder card using your own phone. When designing the card, I wanted to make it 
+                            the placeholder card using your own phone. When designing the card, I had to make it multiple different designs for the Vuforia Engine to rate 
+                            the image target to detect the natural features to extract from it. The more stars rating on the image target, the better the result when the 
+                            placeholder card is scanned on the phone. This also implies to the colors, shape, contrast, feature distrubution and more for a better rating.
+                            The process when implimenting into Unity was neutral as I have to create shape that rectangular, import the Vuforia Engine package into Unity,
+                            paste in the generated license key from the website and test it out on Unity to see if the placeholder is able to detect the image target. When 
+                            it's successfully on Unity and the placeholder shows the 3D image, I had to build into an Android APK file to fully flashed out and test it on 
+                            my physical phone. <br><br>
+
+                            Here are the other two design that I've made but are unsuitable for the Vuforia Engine and has a low rating.
+                            <tbody>
+                                <table class='arNamecard'>
+                                    <tr>
+                                        <th>Front:</th>
+                                        <th>Back:</th>
+                                    </tr>
+
+                                    <tr>
+                                        <td><img src='./imgs/NameCard Front (JPG, Design 2).jpg'></td>
+                                        <td><img src='./imgs/NameCard Back (JPG, Design 2).jpg'></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src='./imgs/NameCard Front (JPG, Design 3).jpg'></td>
+                                        <td><img src='./imgs/NameCard Back (JPG, Design 3).jpg'></td>   
+                                    </tr>
+                                </table>
+                            </tbody>
                         </p>
                     </div>
+                </div>
+
+                <div data-panel='panel-5'>
+                    <div>
+                        <tbody>
+                            <table class='reactApp'>
+                                <tr>
+                                    <td><img src='./imgs/Homepage.gif' width='290' height='572'></td>
+                                    <td><img src='./imgs/Edit amiibo page.gif' width='290' height='572'></td>
+                                    <td><img src='./imgs/Add an amiibo page.gif' width='290' height='572'></td>
+                                </tr>
+                            </table>
+                        </tbody>
+
+                        <h3>Nintendo amiibo collection app</h3>
+
+                        <p>
+                            The application was created using React Native for users to add their favourite Nintendo amiibo into it. I've gotten the 
+                            id
+                        </p>
+                    </div>  
                 </div>
 
                 <nav>
