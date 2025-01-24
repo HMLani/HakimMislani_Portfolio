@@ -50,12 +50,19 @@ video {
 
 .flutter img, .nameCard img, .arNamecard img{
 	width: 100%;
+	border-radius: 10px;
 }
 
 .flutter, .nameCard, .arNamecard {
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 2%;
+}
+
+.featuredPuzzles ul{
+	font-weight: 500;
+	font-size: 50%;
 }
 
 hr{
@@ -82,7 +89,7 @@ body {
 	color: #f2ede3;
 	background: #333;
 	font-size: 0.9em;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 a {
@@ -304,7 +311,7 @@ div.bl-panel-items > div > div {
 
 div.bl-panel-items > div > div h3 {
 	font-size: 2.4em;
-	font-weight: 300;
+	font-weight: 900;
 	margin: 20px 0 20px 0;
 	text-decoration: underline;
 }
@@ -326,7 +333,7 @@ div.bl-panel-items {
 }
 
 div.bl-panel-items > div {
-	background: #3ba5db;
+	background: #215e7d;
 	z-index: 0;
 	opacity: 0;
 	-webkit-transform: translateY(0);
@@ -414,15 +421,15 @@ div.bl-panel-items > div.bl-hide-current-work {
 }
 
 .bl-main > section:first-child.bl-expand {
-	background: #EE4444;
+	background: #9e2e2e;
 }
 
 .bl-main > section:nth-child(2).bl-expand {
-	background: #F98262;
+	background: #8a391e;
 }
 
 .bl-main > section:nth-child(3).bl-expand {
-	background: #4BBE8E;
+	background: #115539;
 }
 
 .bl-main > section:nth-child(4).bl-expand {
