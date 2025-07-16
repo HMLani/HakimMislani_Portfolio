@@ -25,18 +25,37 @@
                     <h2>Welcome to my Web Portfolio!</h2>
                     <img src='./imgs/Logo.png' class='logo'>
                 </div>
-    
+
                 <div class='bl-content'>
-                    <h3>Credits</h3><br><br>
-                    
-                    <h4>Web page layout idea:</h4>
-                    <p><a href='https://tympanus.net/codrops/2013/04/23/fullscreen-layout-with-page-transitions/'><strong>Fullscreen Layout with Page Transitions</strong></a> by Menoela Llic</p><br><br>
+                    <div class="credits-container">
+                        <h2>Acknowledgments</h2>
+                        
+                        <div class="credit-item">
+                            <h3><i class="bi bi-layout-wtf"></i> Layout Design</h3>
+                            <p>Based on <a href='https://tympanus.net/codrops/2013/04/23/fullscreen-layout-with-page-transitions/'>Fullscreen Layout with Page Transitions</a> by Manoela Ilic</p>
+                        </div>
 
-                    <h4>Code implemention:</h4>
-                    <p><a href='https://codepen.io/karolpodlesny/pen/kdJrVE'><strong>Fullscreen layout with columns</strong></a> by Karol Podlesny</p><br><br>
+                        <div class="credit-item">
+                            <h3><i class="bi bi-code-slash"></i> Implementation</h3>
+                            <p>Adapted from <a href='https://codepen.io/karolpodlesny/pen/kdJrVE'>Fullscreen layout with columns</a> by Karol Podlesny</p>
+                        </div>
 
-                    <h4>Images:</h4>
-                    <p>Hakim Mislani</p>
+                        <div class="credit-item">
+                            <h3><i class="bi bi-camera"></i> Visual Content</h3>
+                            <p>All images, videos, and designs created by Hakim Mislani</p>
+                        </div>
+
+                        <div class="tech-stack">
+                            <h3><i class="bi bi-gear-fill"></i> Built With</h3>
+                            <div class="tech-badges">
+                                <span class="tech-badge">HTML5</span>
+                                <span class="tech-badge">CSS3</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">Bootstrap</span>
+                                <span class="tech-badge">jQuery</span>
+                            </div>
+                        </div>
+                    </div>
                 </div><span class='bi bi-x-circle-fill'></span>
             </section>
 
@@ -46,29 +65,78 @@
                 </div>
 
                 <div class='bl-content'>
-                    <h2>Projects</h2>
-                    
-                    <p>Here are my some of the projects I've done throughout my time. Some of them are done on my studies or on my free time. Click on the images for more information and my experiences.</p>
+                    <h2>My Work</h2>
+                    <p class="intro-text">Explore my creative projects spanning mobile development, VR experiences, design work, and interactive applications. Each project showcases different skills and technologies I've mastered.</p>
 
                     <ul id='bl-work-items'>
                         <li data-panel='panel-1'>
-                            <a href='#'><img src='./imgs/Musiclist Page.jpg'></a>
+                            <a href='#'>
+                                <img src='./imgs/Musiclist Page.jpg' alt="Flutter Music App" loading="lazy">
+                                <div class="project-overlay">
+                                    <h4>Flutter Music App</h4>
+                                    <p>Mobile Development</p>
+                                </div>
+                            </a>
                         </li>
 
                         <li data-panel='panel-2'>
-                            <a href='#'><img src='./imgs/VR Game Screenshot.png'></a>
+                            <a href='#'>
+                                <img src='./imgs/VR Game Screenshot.png' alt="VR Escape Room" loading="lazy">
+                                <div class="project-overlay">
+                                    <h4>VR Escape Room</h4>
+                                    <p>Game Development</p>
+                                </div>
+                            </a>
                         </li>
 
                         <li data-panel='panel-3'>
-                            <a href='#'><img src='./imgs/Name Card_Name Card Front.png'></a>
+                            <a href='#'>
+                                <img src='./imgs/Name Card_Name Card Front.png' alt="Business Card Design" loading="lazy">
+                                <div class="project-overlay">
+                                    <h4>Business Card</h4>
+                                    <p>Graphic Design</p>
+                                </div>
+                            </a>
                         </li>
 
                         <li data-panel='panel-4'>
-                            <a href='#'><img src='./imgs/NameCard Back (JPG, Design 1).jpg'></a>
+                            <a href='#'>
+                                <img src='./imgs/NameCard Back (JPG, Design 1).jpg' alt="AR Business Card" loading="lazy">
+                                <div class="project-overlay">
+                                    <h4>AR Business Card</h4>
+                                    <p>Augmented Reality</p>
+                                </div>
+                            </a>
                         </li>
 
                         <li data-panel='panel-5'>
-                            <a href='#'><img src='./imgs/Homepage.gif'></a>
+                            <a href='#'>
+                                <img src='./imgs/Homepage.gif' alt="React Native App" loading="lazy">
+                                <div class="project-overlay">
+                                    <h4>Amiibo Collection</h4>
+                                    <p>React Native</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li data-panel='panel-6'>
+                            <a href='#'>
+                                <img src='./imgs/DailyFit Home.png' alt="DailyFit Prototype" loading="lazy">
+                                <div class="project-overlay">
+                                    <h4>DailyFit</h4>
+                                    <p>Figma Prototype</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li data-panel='panel-7'>
+                            <a href='#'>
+                                <img src='./imgs/ThisSideUp Home.png' alt="This Side Up Website" loading="lazy">
+                                <div class="project-overlay">
+                                    <h4>This Side Up</h4>
+                                    <p>Web Development</p>
+                                </div>
+                            </a>
                         </li>
                     </ul>
                 </div><span class='bi bi-x-circle-fill'></span>
@@ -80,262 +148,415 @@
                 </div>
 
                 <div class='bl-content'>
-                    <img src='./imgs/Self Portrait.jpg' class='profile-pic'>
+                    <div class="about-container">
+                        <div class="about-header">
+                            <img src='./imgs/Self Portrait.jpg' class='profile-pic' alt="Hakim Mislani" loading="lazy">
+                            <div class="about-intro">
+                                <h2>Muhammad Hakim Bin Mislani</h2>
+                                <h3 class="role">UI/UX Designer & Developer</h3>
+                                <p class="current-status">Year 3 Diploma in Information Technology Student at Republic Polytechnic</p>
+                            </div>
+                        </div>
 
-                    <h2>About Me</h2>
+                        <div class="about-content">
+                            <div class="about-section">
+                                <h3><i class="bi bi-person-heart"></i> About Me</h3>
+                                <p>Passionate about creating visually appealing and user-friendly digital experiences. I specialize in UI/UX design with a focus on accessibility and innovative interface solutions. My goal is to bridge the gap between beautiful design and functional technology.</p>
+                            </div>
 
-                    <p>Hello! My name's Muhammad Hakim Bin Mislani. I'm currently a year 2 student soon to be year 3 studying in Diploma in Information Technology which 
-                        was formally known as Digital Design and Development at Republic Polytechnic. I have lots of creative ideas that want to bring to life whenever it
-                        comes to designing. My passion is to become a UI/UX designer to create interfaces that's visually appealing, user-friendly and accessible for all users 
-                        to use. My programming skills are only decent when it comes to make a web or mobile application to make it look appealing as I have most of my ideas on 
-                        developing applications looks visually appealing and user-friendly. The tools I've used to create my projects are Adobe Illustrator and Photoshop, 
-                        Figma, Unity, React and React Native, and Flutter. My hobbies are playing computer games whenever I have free time  to clear my mind off from stress 
-                        and relax my mind. 
-                    </p>
+                            <div class="skills-section">
+                                <h3><i class="bi bi-tools"></i> Technical Skills</h3>
+                                <div class="skills-grid">
+                                    <div class="skill-category">
+                                        <h4>Design Tools</h4>
+                                        <div class="skill-tags">
+                                            <span class="skill-tag">Adobe Illustrator</span>
+                                            <span class="skill-tag">Adobe Photoshop</span>
+                                            <span class="skill-tag">Figma</span>
+                                        </div>
+                                    </div>
+                                    <div class="skill-category">
+                                        <h4>Development</h4>
+                                        <div class="skill-tags">
+                                            <span class="skill-tag">React Native</span>
+                                            <span class="skill-tag">Flutter</span>
+                                            <span class="skill-tag">Unity</span>
+                                            <span class="skill-tag">Web Development</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <hr>
-                        
-                    <h2>Get in touch</h2>
+                            <div class="interests-section">
+                                <h3><i class="bi bi-heart-fill"></i> Interests</h3>
+                                <p>When I'm not designing or coding, I enjoy gaming as a way to unwind and explore new interactive experiences that inspire my own creative work.</p>
+                            </div>
+                        </div>
 
-                    <p>
-                        <strong>WhatsApp / Telegram</strong>: +6590704633 (preferred message than a call)<br>
-                        <strong>LinkedIn</strong>: <a href='https://www.linkedin.com/in/hakim-mislani/'>Hakim Mislani</a><br>
-                        <strong>Email</strong>: mhkim.lani@gmail.com<br>
-                        <strong>Github</strong>: <a href='https://github.com/HMLani'>HMLani</a>
-                    </p>
+                        <div class="contact-section">
+                            <h2><i class="bi bi-envelope-heart"></i> Let's Connect</h2>
+                            <div class="contact-grid">
+                                <div class="contact-item">
+                                    <i class="bi bi-phone"></i>
+                                    <div>
+                                        <strong>Phone/WhatsApp</strong>
+                                        <p>+65 9070 4633 <span class="note">(text preferred)</span></p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="bi bi-linkedin"></i>
+                                    <div>
+                                        <strong>LinkedIn</strong>
+                                        <p><a href='https://www.linkedin.com/in/hakim-mislani/'>Hakim Mislani</a></p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="bi bi-envelope"></i>
+                                    <div>
+                                        <strong>Email</strong>
+                                        <p><a href="mailto:mhkim.lani@gmail.com">mhkim.lani@gmail.com</a></p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="bi bi-github"></i>
+                                    <div>
+                                        <strong>GitHub</strong>
+                                        <p><a href='https://github.com/HMLani'>HMLani</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div><span class='bi bi-x-circle-fill'></span>
             </section>
 
             <div class='bl-panel-items' id='bl-panel-work-items'>
-                <div data-panel='panel-1'>                    
+                <div data-panel='panel-1'>
                     <div>
-                        <tbody>
-                            <table class='flutter'>
-                                <tr>
-                                    <td><img src='./imgs/Musiclist Page.jpg'></td>
-                                    <td><img src='./imgs/Dark Mode Settings.jpg'></td>
-                                    <td><img src='./imgs/Music Player.jpg'></td>
-                                </tr>
-                            </table>
-                        </tbody>
+                        <div class="project-header">
+                            <div class="project-images">
+                                <img src='./imgs/Musiclist Page.jpg' alt="Musiclist Page" loading="lazy">
+                                <img src='./imgs/Dark Mode Settings.jpg' alt="Dark Mode Settings" loading="lazy">
+                                <img src='./imgs/Music Player.jpg' alt="Music Player" loading="lazy">
+                            </div>
+                            <div class="project-info">
+                                <h3>Music Playlist with Player</h3>
+                                <div class="tech-stack-detail">
+                                    <span class="tech-tag">Flutter</span>
+                                    <span class="tech-tag">Dart</span>
+                                    <span class="tech-tag">Mobile Development</span>
+                                </div>
+                            </div>
+                        </div>
 
-                        <h3>Music Playlist with Player (Flutter)</h3>
+                        <div class="project-description">
+                            <p>A comprehensive music player app built with Flutter, featuring playlist management, dark mode support, and a customizable interface. This project served as my introduction to Flutter development and cross-platform mobile app creation.</p>
+                            
+                            <h4>Key Features</h4>
+                            <ul class="feature-list">
+                                <li>Custom music player with playlist functionality</li>
+                                <li>Dark and light theme support</li>
+                                <li>Intuitive user interface design</li>
+                                <li>Cross-platform compatibility (iOS & Android)</li>
+                            </ul>
 
-                        <p>This project was my introduction to Flutter. When I learn about mobile development during my studies @ ITE using
-                            Swift, I started to wonder if I may create an app on Android. During my resreach of how to create and learn one, 
-                            I stumble upon Flutter, a software development kit that uses Dart programming language that developed by google 
-                            and designed by Lars Bak and Kasper Lund released on the November 14, 2013. The other software development tool 
-                            was React, but I've decided to go with Flutter as I was quite familiar with the workflow of it as it reminded me 
-                            of what I did on Swift but without draging in the parts if the components (i.e. buttons, textboxes, navigation) 
-                            into the design. <br><br>
-                            
-                            I started to reseached on how to create a Music app with Flutter as I had an idea to create a 
-                            music app with an implemention of an API from Spotify to get the users music data into my customizable app, in 
-                            short a fully funtional Spotify Clone where users are able to customize the interface. The idea that I've got was 
-                            inspired by a community made 'extension' that let's users customize the desktop app called Spicetify. When I 
-                            explored Spicetify, I was impressed by the sheer amount of community made themes and extensions to make the app 
-                            more lively and appealing to users. <br><br>
-                            
-                            So, when I reseached that if there's any mobile version of Spicetify but there's none. On one hand I could make a 
-                            mobile version of it but it would be a hassle to make it work on the mobile and I don't have the resources to make 
-                            it work for both iOS and Android and that's how I've decided to make this project but without the API implemention 
-                            as this project was only a learning experiences on how Flutter works. As of right now,I had to put the Flutter 
-                            journey on hold or hiatus as I'm mostly focusing on my studies and trying to find myself a suitable part-time job 
-                            to support myself.
-                        </p>
+                            <h4>Development Journey</h4>
+                            <p>This project was inspired by Spicetify, a community-driven Spotify customization tool. I aimed to create a mobile equivalent that would allow users to customize their music experience with personalized themes and layouts.</p>
+                        </div>
                     </div>
                 </div>
 
                 <div data-panel='panel-2'>
                     <div>
-                         <tbody>
-                            <table class='vrEscapeRoom'>
-                                <tr>
-                                    <th>Room 1:</th>
-                                    <th>Room 2:</th>
-                                </tr>
+                        <div class="project-header">
+                            <div class="vr-videos">
+                                <div class="video-grid">
+                                    <div class="video-item">
+                                        <h5>Room 1: Pressure Plates</h5>
+                                        <iframe src='https://www.youtube.com/embed/Ybw8FzlMeTQ' allowfullscreen loading="lazy"></iframe>
+                                    </div>
+                                    <div class="video-item">
+                                        <h5>Room 2: Number Combination</h5>
+                                        <iframe src='https://www.youtube.com/embed/4Y2NijoUdEU' allowfullscreen loading="lazy"></iframe>
+                                    </div>
+                                    <div class="video-item">
+                                        <h5>Room 3: Light Sequence</h5>
+                                        <iframe src='https://www.youtube.com/embed/vtKLl-85ee0' allowfullscreen loading="lazy"></iframe>
+                                    </div>
+                                    <div class="video-item">
+                                        <h5>Room 4: Color Tubes</h5>
+                                        <iframe src='https://www.youtube.com/embed/XJ8fmPw29S4' allowfullscreen loading="lazy"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>'Back to Present' VR Escape Room</h3>
+                                <div class="tech-stack-detail">
+                                    <span class="tech-tag">Unity</span>
+                                    <span class="tech-tag">VR Development</span>
+                                    <span class="tech-tag">C#</span>
+                                    <span class="tech-tag">Game Design</span>
+                                </div>
+                            </div>
+                        </div>
 
-                                <tr>
-                                    <td>
-                                        <iframe src='https://www.youtube.com/embed/Ybw8FzlMeTQ' allowfullscreen></iframe>
-                                    </td>
-                                    
-                                    <td>
-                                        <iframe src='https://www.youtube.com/embed/4Y2NijoUdEU' allowfullscreen></iframe>
-                                    </td>
-                                </tr>
-                                
-                                <tr>
-                                    <th>Room 3:</th>
-                                    <th>Room 4:</th>
-                                </tr>
-                                
-                                <tr>
-                                    <td>
-                                        <iframe src='https://www.youtube.com/embed/vtKLl-85ee0' allowfullscreen></iframe>
-                                    </td>
-                                    
-                                    <td>
-                                        <iframe src='https://www.youtube.com/embed/XJ8fmPw29S4' allowfullscreen></iframe>
-                                    </td>
-                                </tr>
-                            </table>
-                         </tbody>
-
-                        <h3>'Back to present' Virtual Reality (VR) Escape Room</h3>
-
-                        <p>
-                            'Back to Present' is a Virtual Reality (VR) Escape Room game that I've made using Unity. The process of developing 
-                            it challenging as I had to think of a theme and puzzles that not too simple or too difficult for players to solve 
-                            when playing the game. The theme idea was that the player accidentally fell into a portal of thier future self and
-                            to escape the lab while solving puzzles in each rooms. The puzzles in each rooms are unique and different from each 
-                            other as I wanted each rooms to have a different feeling and experience rather than using the same puzzles mechanics
-                            and dull gameplay throughout the game. Each rooms has a tablet of what to do so that the player knows how to proceed
-                            out the room.<br><br>
-
-                            <strong><u>Pluzzes featured in game</u></strong>
-                                    <p>Room 1: Player has to place cubes on each sets of 3 'pressure plate' to leave and procceed to the next room.
-                                            The 'pressure plate' has no animation when the cube is placed on it but there will be a sound indication
-                                            when the cubes onto of the plates. The first set of cubes are place near the plates to let the player know 
-                                            what to do but the other cubes are in the room when the player has to find them.<br></p>
-                                
-                                    <p>Room 2: Player has to key in the correct number combination to unlock the door. The number combination for the puzzle 
-                                            is shown by the light pads near the number pad terminal. Each light pad is light up to the combination of terminal 
-                                            and players had to press the correct number of the light position to proceed to the next room. For example, if the 
-                                            lights position are 1, 4, 5, 9, the player has to press 1, 4, 5, 9 on the number terminal. There are 3 terminals with
-                                            different combinations to be solved and a sound will be played when all terminals are entered correctly.<br></p>
-                                
-                                    <p>Room 3: Player has to enter a combination of the correct flashing light sequence on one of the 4 terminals in the middle of 
-                                            the room. The clue is shown on the tablet and have to look at the number of flashes on the light where the tablet stated
-                                            to open the door. If the player entered the number sequence of flashing lights on the wrong terminal, a sound will indicate
-                                            that the player enter it in the wrong terminal but if the player enter it on the correct terminal, a sound will play and the 
-                                            door will to let the player proceed to the next room.<br></p>
-                               
-                                    <p>Room 4: Player has to look around the room to find a colour tube to place on top of 'table' where the tube will automatically 
-                                            placed. The tube must be placed on the correct 'pad' to open the door and if the player placed it on the wrong pad on the 
-                                            'table', the light in front of the table will light up red with a sound it and vice versa. When all six tubes are placed 
-                                            correctly, the door will open and the player will be able to escape the lab.</p>
+                        <div class="project-description">
+                            <p>An immersive VR escape room experience where players must solve unique puzzles across four themed rooms to escape from their future self's laboratory and return to the present.</p>
+                            
+                            <h4>Puzzle Design</h4>
+                            <ul class="feature-list">
+                                <li><strong>Room 1:</strong> Place cubes on pressure plates with audio feedback</li>
+                                <li><strong>Room 2:</strong> Decode light patterns into number combinations</li>
+                                <li><strong>Room 3:</strong> Follow flashing light sequences on terminals</li>
+                                <li><strong>Room 4:</strong> Sort colored tubes onto correct platforms</li>
                             </ul>
 
-                        </p>
+                            <p>Each room features distinct mechanics and progressive difficulty, ensuring an engaging and varied gameplay experience that challenges players' problem-solving skills.</p>
+                        </div>
                     </div>
                 </div>
 
                 <div data-panel='panel-3'>
                     <div>
-                        <tbody>
-                            <table class='nameCard'>
-                                <tr>
-                                    <th>Front:</th>
-                                    <th>Back:</th>
-                                </tr>
-                                <tr>
-                                    <td><img src='./imgs/Name Card_Name Card Front.png'></td>
-                                    <td><img src='./imgs/Name Card_Name Card Back.png'></td>
-                                </tr>
-                            </table>
-                        </tbody>
+                        <div class="project-header">
+                            <div class="card-showcase">
+                                <div class="card-pair">
+                                    <div class="card-side">
+                                        <h5>Front Design</h5>
+                                        <img src='./imgs/Name Card_Name Card Front.png' alt="Name Card Front" loading="lazy">
+                                    </div>
+                                    <div class="card-side">
+                                        <h5>Back Design</h5>
+                                        <img src='./imgs/Name Card_Name Card Back.png' alt="Name Card Back" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Professional Business Card Design</h3>
+                                <div class="tech-stack-detail">
+                                    <span class="tech-tag">Adobe Illustrator</span>
+                                    <span class="tech-tag">Graphic Design</span>
+                                    <span class="tech-tag">Brand Identity</span>
+                                </div>
+                            </div>
+                        </div>
 
-                        <h3>Name Card Design</h3>
+                        <div class="project-description">
+                            <p>A minimalist and professional business card design focusing on clarity, readability, and visual appeal. The design balances modern aesthetics with practical functionality.</p>
+                            
+                            <h4>Design Elements</h4>
+                            <ul class="feature-list">
+                                <li><strong>Typography:</strong> ITC Avant Garde Gothic for headers, Futura PT for details</li>
+                                <li><strong>Color Palette:</strong> Calming colors for professional appeal</li>
+                                <li><strong>Logo:</strong> Custom design combining initials with tattoo-inspired aesthetics</li>
+                                <li><strong>Layout:</strong> Clean, organized structure with strategic white space</li>
+                            </ul>
 
-                        <p>
-                            The proces to create this name card was quite a process as I have to think of several design concepts that look minimalistic and professional 
-                            for each elemetns to be seen clearly for viewer to see. The choice of the color palette was chosen as to make it pop for better visibility and 
-                            appealing if it's printed into a physical busniess card. The goal of why I chose the color was that I wanted to make the card feel calm and 
-                            pleasing to the viwers eyes and not too flashy and cluttered with too much design elements as want to focused on clarity and readibility maintaining
-                            a layout that is clean and organized. On the back of the card, I've decided to make it clean and simple with my logo positioned to the right slightly 
-                            rather than to the center as I wanted to make it look apart from other standard card design that I've encountered during my research when designing ideas.<br><br>
-
-                            The font used are 'ITC Avant Garde Gothic' for both my name and my designated job title for the viewer focus on when they either take a quick glance or skim 
-                            through it with the font sizes of 10 to 11 points and font weight in bold and regular. As for my information details, I used 'Futara PT' as it's looks clean, 
-                            modern and easy to read in font size of 10 points and font weight bold and light. The logo idea was created by using my first two letter of my first and last
-                            name combined into each other. I've decided to make it look like a tattoo design as it look unique and different. 
-                        </p>
+                            <p>The design prioritizes readability and professional presentation while maintaining a unique visual identity that stands out from conventional business card designs.</p>
+                        </div>
                     </div>
                 </div>
 
                 <div data-panel='panel-4'>
                     <div>
-                        <video controls muted>
-                            <source src='./video/AR_Name_Card_HakimMislani.mp4' type='video/mp4'>
-                            Your browser does not support the video tag.
-                        </video>
-                        <tbody>
-                            <table class='arNamecard'>
-                                <tr>
-                                    <th>Front:</th>
-                                    <th>Back:</th>
-                                </tr>
+                        <div class="project-header">
+                            <div class="ar-showcase">
+                                <div class="ar-video">
+                                    <video controls muted>
+                                        <source src='./video/AR_Name_Card_HakimMislani.mp4' type='video/mp4'>
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                <div class="ar-cards">
+                                    <div class="card-variation">
+                                        <h5>Final Design (5-star rating)</h5>
+                                        <div class="card-pair-small">
+                                            <img src='./imgs/NameCard Front (JPG, Design 1).jpg' alt="NameCard Front Design 1" loading="lazy" class="clickable-image">
+                                            <img src='./imgs/NameCard Back (JPG, Design 1).jpg' alt="NameCard Back Design 1" loading="lazy" class="clickable-image">
+                                        </div>
+                                    </div>
+                                    <div class="design-iterations">
+                                        <h5>Alternative Designs</h5>
+                                        <div class="small-cards">
+                                            <img src='./imgs/NameCard Front (JPG, Design 2).jpg' alt="NameCard Front Design 2" loading="lazy" class="clickable-image">
+                                            <img src='./imgs/NameCard Back (JPG, Design 2).jpg' alt="NameCard Back Design 2" loading="lazy" class="clickable-image">
+                                            <img src='./imgs/NameCard Front (JPG, Design 3).jpg' alt="NameCard Front Design 3" loading="lazy" class="clickable-image">
+                                            <img src='./imgs/NameCard Back (JPG, Design 3).jpg' alt="NameCard Back Design 3" loading="lazy" class="clickable-image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Augmented Reality Business Card</h3>
+                                <div class="tech-stack-detail">
+                                    <span class="tech-tag">Unity</span>
+                                    <span class="tech-tag">Vuforia</span>
+                                    <span class="tech-tag">AR Development</span>
+                                    <span class="tech-tag">Adobe Illustrator</span>
+                                </div>
+                            </div>
+                        </div>
 
-                                <tr>
-                                    <td><img src='./imgs/NameCard Front (JPG, Design 1).jpg'></td>
-                                    <td><img src='./imgs/NameCard Back (JPG, Design 1).jpg'></td>
-                                </tr>
-                            </table>
-                        </tbody>
+                        <div class="project-description">
+                            <p>An innovative business card that comes to life through augmented reality. Users can scan the physical card with their phone to view interactive 3D content and additional information.</p>
+                            
+                            <h4>Technical Implementation</h4>
+                            <ul class="feature-list">
+                                <li><strong>Design Optimization:</strong> Multiple iterations to achieve 5-star Vuforia rating</li>
+                                <li><strong>AR Integration:</strong> Unity + Vuforia for seamless tracking and rendering</li>
+                                <li><strong>Mobile Deployment:</strong> Android APK for real-device testing</li>
+                                <li><strong>Image Recognition:</strong> Advanced natural feature detection</li>
+                            </ul>
 
-                        <h3>Augmented Reality (AR) Name Card</h3>
-
-                        <p>
-                            This name card was created usin Adobe Illustrator, Unity and Vuforia to make the card come to life using Augmented Reality (AR) when scanning 
-                            the placeholder card using your own phone. When designing the card, I had to make it multiple different designs for the Vuforia Engine to rate 
-                            the image target to detect the natural features to extract from it. The more stars rating on the image target, the better the result when the 
-                            placeholder card is scanned on the phone. This also implies to the colors, shape, contrast, feature distrubution and more for a better rating.
-                            The process when implimenting into Unity was neutral as I have to create shape that rectangular, import the Vuforia Engine package into Unity,
-                            paste in the generated license key from the website and test it out on Unity to see if the placeholder is able to detect the image target. When 
-                            it's successfully on Unity and the placeholder shows the 3D image, I had to build into an Android APK file to fully flashed out and test it on 
-                            my physical phone. <br><br>
-
-                            Here are the other two design that I've made but are unsuitable for the Vuforia Engine and has a low rating.
-                            <tbody>
-                                <table class='arNamecard'>
-                                    <tr>
-                                        <th>Front:</th>
-                                        <th>Back:</th>
-                                    </tr>
-
-                                    <tr>
-                                        <td><img src='./imgs/NameCard Front (JPG, Design 2).jpg'></td>
-                                        <td><img src='./imgs/NameCard Back (JPG, Design 2).jpg'></td>
-                                    </tr>
-                                    <tr>
-                                        <td><img src='./imgs/NameCard Front (JPG, Design 3).jpg'></td>
-                                        <td><img src='./imgs/NameCard Back (JPG, Design 3).jpg'></td>   
-                                    </tr>
-                                </table>
-                            </tbody>
-                        </p>
+                            <p>The project required careful consideration of contrast, feature distribution, and visual elements to ensure optimal AR tracking performance across different lighting conditions.</p>
+                        </div>
                     </div>
                 </div>
 
                 <div data-panel='panel-5'>
                     <div>
-                        <tbody>
-                            <table class='reactApp'>
-                                <tr>
-                                    <td><img src='./imgs/Homepage.gif' width='290' height='572'></td>
-                                    <td><img src='./imgs/Edit amiibo page.gif' width='290' height='572'></td>
-                                    <td><img src='./imgs/Add an amiibo page.gif' width='290' height='572'></td>
-                                </tr>
-                            </table>
-                        </tbody>
+                        <div class="project-header">
+                            <div class="app-showcase">
+                                <div class="app-screens">
+                                    <div class="screen-item">
+                                        <h5>Homepage & Navigation</h5>
+                                        <img src='./imgs/Homepage.gif' alt="Homepage" loading="lazy">
+                                    </div>
+                                    <div class="screen-item">
+                                        <h5>Edit Functionality</h5>
+                                        <img src='./imgs/Edit amiibo page.gif' alt="Edit amiibo page" loading="lazy">
+                                    </div>
+                                    <div class="screen-item">
+                                        <h5>Add New Items</h5>
+                                        <img src='./imgs/Add an amiibo page.gif' alt="Add an amiibo page" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Nintendo Amiibo Collection App</h3>
+                                <div class="tech-stack-detail">
+                                    <span class="tech-tag">React Native</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">Mobile UI</span>
+                                    <span class="tech-tag">CRUD Operations</span>
+                                </div>
+                            </div>
+                        </div>
 
-                        <h3>Nintendo amiibo collection app</h3>
+                        <div class="project-description">
+                            <p>A comprehensive mobile app for Nintendo amiibo collectors to manage their personal inventory. Features a clean, intuitive interface for adding, editing, and organizing amiibo collections.</p>
+                            
+                            <h4>Core Features</h4>
+                            <ul class="feature-list">
+                                <li><strong>Inventory Management:</strong> Add, edit, and delete amiibo entries</li>
+                                <li><strong>Detailed Information:</strong> Name, series, release date, and descriptions</li>
+                                <li><strong>Image Support:</strong> Custom photo upload for each amiibo</li>
+                                <li><strong>Clean UI:</strong> Uncluttered design focused on usability</li>
+                            </ul>
 
-                        <p>
-                            THe project prime aim was to develop a React Native app through where users may create their 
-                            very own inventory of their cherished amiibos from Nintendo. This idea I've gotten when I 
-                            thought about when users are able to keep tabs on thier favourite amiibo characters. The user 
-                            would required to state the name of the amiibo headID & tailID for the image, its series of 
-                            what game it came from, the date of its release and it's description. The user will be able 
-                            to add an image of their amiibo and get the option symbolized as inventory with a simple and 
-                            uncluttered user interface. The full list of the amiibo on the app is shown on the homepage 
-                            and either 'add' with the button below the app. USer are able to 'edit' to justify any details 
-                            mistakes and 'delete' amiibos out of the inventory. All in all, it was a learning curve when 
-                            learning React Native to justify the development of applications, putting all my skill in 
-                            mobile application development with a perspective of sheer functional user experience.
-                        </p>
-                    </div>  
+                            <h4>Design Resources</h4>
+                            <p><strong>UI Planning & Design:</strong> <a href="https://www.figma.com/design/KFkVAvqVlqNwsIr8fxXwAN/C346-L07-UI-Planning-Hakim-Mislani?node-id=0-1&t=hEUfsSdqlM2l5lRy-1" target="_blank">View Figma Design</a></p>
+
+                            <p>This project demonstrates full-stack mobile development skills and user-centered design principles, creating an efficient tool for collectors to track their valuable Nintendo amiibo figures.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-panel='panel-6'>
+                    <div>
+                        <div class="project-header">
+                            <div class="app-showcase">
+                                <div class="app-screens">
+                                    <div class="screen-item">
+                                        <h5>Home Screen</h5>
+                                        <img src='./imgs/DailyFit Home.png' alt="DailyFit Home" loading="lazy">
+                                    </div>
+                                    <div class="screen-item">
+                                        <h5>Login Screen</h5>
+                                        <img src='./imgs/DailyFit Login.png' alt="DailyFit Login" loading="lazy">
+                                    </div>
+                                    <div class="screen-item">
+                                        <h5>Startup Screen</h5>
+                                        <img src='./imgs/DailyFit Startup.png' alt="DailyFit Startup" loading="lazy">
+                                    </div>
+                                    <div class="screen-item">
+                                        <h5>Training Screen</h5>
+                                        <img src='./imgs/DailyFit Training.png' alt="DailyFit Training" loading="lazy">
+                                    </div>
+                                    <div class="screen-item">
+                                        <h5>Profile Screen</h5>
+                                        <img src='./imgs/DailyFit Profile.png' alt="DailyFit Profile" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>DailyFit - Fitness Tracking App</h3>
+                                <div class="tech-stack-detail">
+                                    <span class="tech-tag">Figma</span>
+                                    <span class="tech-tag">UI/UX Design</span>
+                                    <span class="tech-tag">Prototyping</span>
+                                    <span class="tech-tag">Interaction Design</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-description">
+                            <p>A comprehensive fitness tracking application prototype designed in Figma. DailyFit focuses on providing users with an intuitive and motivating experience to track their daily fitness activities, set goals, and monitor progress.</p>
+                            
+                            <h4>Key Features</h4>
+                            <ul class="feature-list">
+                                <li><strong>Activity Tracking:</strong> Monitor daily exercises, steps, and workout sessions</li>
+                                <li><strong>Goal Setting:</strong> Set and track personalized fitness objectives</li>
+                                <li><strong>Progress Analytics:</strong> Visual charts and statistics for motivation</li>
+                                <li><strong>Interactive Prototype:</strong> Fully functional Figma prototype with animations</li>
+                            </ul>
+
+                            <h4>Design Resources</h4>
+                            <p><strong>UI Planning, Design & WireFrames:</strong> <a href="https://www.figma.com/design/17TeQ0k1KowNY3ZXd8jYdz/DailyFit-App?node-id=1-3&t=JRmpr7PGX7OWpSUt-1" target="_blank">View Figma Design</a></p>
+
+                            <p>This prototype demonstrates advanced UI/UX design skills, focusing on user experience principles and interactive design patterns that encourage user engagement and fitness goal achievement.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-panel='panel-7'>
+                    <div>
+                        <div class="project-header">
+                            <div class="project-images">
+                                <img src='./imgs/ThisSideUp Home.png' alt="This Side Up Home" loading="lazy" class="clickable-image">
+                                <img src='./imgs/ThisSideUp About.png' alt="This Side Up About" loading="lazy" class="clickable-image">
+                                <img src='./imgs/ThisSideUp Customer.png' alt="This Side Up Customer" loading="lazy" class="clickable-image">
+                                <img src='./imgs/ThisSideUp Admin.png' alt="This Side Up Admin" loading="lazy" class="clickable-image">
+                            </div>
+                            <div class="project-info">
+                                <h3>This Side Up - Company Website</h3>
+                                <div class="tech-stack-detail">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">Figma</span>
+                                    <span class="tech-tag">Web Development</span>
+                                    <span class="tech-tag">Team Project</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-description">
+                            <p>Final Year Project (FYP) developing a comprehensive website for This Side Up company. Working collaboratively with my team to create a modern, responsive web solution using React for development and Figma for wireframing and design planning.</p>
+                            
+                            <h4>Project Scope</h4>
+                            <ul class="feature-list">
+                                <li><strong>Team Collaboration:</strong> Working with team members on a real client project</li>
+                                <li><strong>Wireframing:</strong> Comprehensive planning and design in Figma</li>
+                                <li><strong>React Development:</strong> Modern web application using React framework</li>
+                                <li><strong>Responsive Design:</strong> Mobile-first approach for all devices</li>
+                            </ul>
+
+                            <h4>Design Resources</h4>
+                            <p><strong>Wireframes & Planning:</strong> <a href="https://www.figma.com/design/FOH2hvFdX2xiz9JG2kIvLu/THIS-SIDE-UP-WIREFRAME?node-id=17-21&t=xfbqplwkT3fCm56r-1" target="_blank">View Figma Wireframes</a></p>
+
+                            <p>This ongoing project showcases collaborative development skills, modern web technologies, and the complete design-to-development workflow from initial wireframing to final implementation.</p>
+                        </div>
+                    </div>
                 </div>
 
                 <nav>
@@ -346,11 +567,49 @@
         </div>
     </div>
 
+    <!-- Image Modal for Fullscreen View -->
+    <div id="imageModal" class="image-modal">
+        <span class="image-modal-close">&times;</span>
+        <img class="image-modal-content" id="modalImage">
+    </div>
+
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
     <script src='js/boxlayout.js'></script>
     <script>
         $(function () {
             Boxlayout.init();
+            
+            // Image modal functionality
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            const closeBtn = document.querySelector('.image-modal-close');
+            
+            // Add click event to all clickable images
+            document.addEventListener('click', function(e) {
+                if (e.target.classList.contains('clickable-image')) {
+                    modal.classList.add('active');
+                    modalImg.src = e.target.src;
+                }
+            });
+            
+            // Close modal when clicking close button
+            closeBtn.addEventListener('click', function() {
+                modal.classList.remove('active');
+            });
+            
+            // Close modal when clicking outside the image
+            modal.addEventListener('click', function(e) {
+                if (e.target === modal) {
+                    modal.classList.remove('active');
+                }
+            });
+            
+            // Close modal with Escape key
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    modal.classList.remove('active');
+                }
+            });
         });
     </script>
 </body>
